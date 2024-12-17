@@ -33,4 +33,4 @@ jobs:
             -d "text=$MSG" \
             -d "parse_mode=MarkdownV2"
       - name: Keep Alive
-        run: sleep 1h  # alive for 1 hour (increase this according to your needs {maximum 6hrs})
+        run: sleep 6h  # alive for 1 hour (increase this according to your needs {maximum 6hrs})
